@@ -1,0 +1,26 @@
+<!-- modal.page.html -->
+<ion-content [fullscreen]="true">
+  <div *ngIf="students">
+
+    <ion-item>
+      <ion-label position="stacked">Name</ion-label>
+      <ion-input [(ngModel)]="students.name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">UCID</ion-label>
+      <ion-input [(ngModel)]="students.Ucid"></ion-input>
+    </ion-item>
+
+  </div>
+
+  <ion-button expand="block" color="success" (click)="updateStudent()">
+    <ion-icon name="save" slot="start"></ion-icon>
+    Update
+  </ion-button>
+
+  <ion-button expand="block" color="danger" (click)="deleteStudent()">
+    <ion-icon name="trash" slot="start"></ion-icon>
+    Delete
+  </ion-button>
+</ion-content>

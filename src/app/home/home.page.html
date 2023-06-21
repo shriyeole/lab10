@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Students List
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let student of students" (click)="openStudentList(student)">
+    <ion-label>
+
+    Name:  {{student.name}} <br>
+    UCID: {{student.Ucid}}
+     <ion-label>
+     Feedback:  {{student.feedback}}
+     </ion-label>
+    </ion-label>
+    
+      
+    
+    </ion-item>
+  </ion-list>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="addNote()">
+    <ion-icon name="add"></ion-icon>
+  </ion-fab-button>
+  </ion-fab>
+</ion-content>

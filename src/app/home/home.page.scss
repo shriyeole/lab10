@@ -1,0 +1,112 @@
+/* Styling for the entire page */
+ion-content {
+  --background: #F5F5F5;
+}
+
+/* Styling for the page title */
+ion-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling for the student list */
+ion-list {
+  margin: 16px;
+}
+
+ion-item {
+  border-bottom: 1px solid #ddd;
+  padding: 16px;
+}
+
+ion-label {
+  display: block;
+  font-weight: bold;
+}
+
+/* Styling for student information */
+ion-label {
+  margin-bottom: 8px;
+}
+
+/* Styling for student name */
+ion-label::after {
+  content: ":";
+  margin-left: 4px;
+}
+
+/* Styling for student feedback */
+ion-label:last-child {
+  margin-top: 8px;
+}
+
+/* Styling for the floating action button */
+ion-fab {
+  margin-bottom: 16px;
+}
+
+ion-fab-button {
+  --background: #007bff;
+}
+
+ion-fab-button ion-icon {
+  color: #fff;
+}
+
+/* Additional styles for professional appearance */
+
+ion-header {
+  ion-toolbar {
+    --background: #3F51B5; /* Deep Blue */
+    color: #FFFFFF;
+  }
+
+  ion-title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+ion-content {
+  --background: #F5F5F5;
+}
+
+ion-list {
+  margin: 16px;
+}
+
+ion-item {
+  border-bottom: 1px solid #ddd;
+  padding: 16px;
+}
+
+ion-label {
+  display: block;
+  font-weight: bold;
+}
+
+ion-label {
+  margin-bottom: 8px;
+}
+
+ion-label::after {
+  content: ":";
+  margin-left: 4px;
+}
+
+ion-label:last-child {
+  margin-top: 8px;
+}
+
+ion-fab {
+  margin-bottom: 16px;
+}
+
+ion-fab-button {
+  --background: #007bff;
+}
+
+ion-fab-button ion-icon {
+  color: #fff;
+}
